@@ -1,0 +1,20 @@
+@import "~src/styles/base.scss";
+
+.container {
+    .player-box {
+        height: px2rem(421.875);
+        background: yellow;
+        #live-player {
+            position: fixed;
+            width: 160px;
+            height: 90px;
+            background: green;
+            right: 20px;
+            bottom: 20px;
+        }
+    }
+}
+
+h1 {
+    width: px2rem(750);
+}

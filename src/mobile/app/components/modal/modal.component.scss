@@ -1,0 +1,11 @@
+@import "~src/styles/base.scss";
+
+.modal-wrap {
+    width: px2rem(600);
+    height: px2rem(400);
+    background-color: red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
